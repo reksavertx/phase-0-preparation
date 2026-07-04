@@ -1,0 +1,3 @@
+Untuk web yang dimodif saya pakai ai yaa bang hehehe. 
+
+saya juga tambahkan fitur jika ada yang coba xss maka akan muncul pop up alert hehehe.

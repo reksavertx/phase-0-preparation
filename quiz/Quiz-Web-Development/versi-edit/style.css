@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* HEADER */
+.header {
+    background: #f44336;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* INPUT */
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* BUTTON */
+.addBtn, button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.addBtn {
+    background: #d9d9d9;
+}
+
+/* LIST */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 12px;
+    background: #eee;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li.checked {
+    background: #888;
+    color: white;
+    text-decoration: line-through;
+}
+
+/* CLOSE */
+.close {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+}
+
+/* FILTER */
+.filterBtn.active {
+    background: #333;
+    color: white;
+}
+
+/* NOT FOUND */
+.notFound {
+    margin-top: 10px;
+    color: yellow;
+    font-weight: bold;
+}
+
+/* EDIT INPUT */
+.editInput {
+    width: 60%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h2>My To Do List</h2>
+
+    <!-- SEARCH -->
+    <input type="text" id="searchInput" placeholder="Search task...">
+
+    <div id="notFound" class="notFound" style="display:none;">
+        Maaf, Watashi tidak bisa memberi kamu hasil. Sepertinya kamu typo atau data kamu gak ada
+    </div>
+
+    <!-- FILTER -->
+    <div class="filter">
+        <button class="filterBtn active" data-filter="all">All</button>
+        <button class="filterBtn" data-filter="active">Active</button>
+        <button class="filterBtn" data-filter="completed">Completed</button>
+    </div>
+
+    <!-- ADD -->
+    <input type="text" id="myInput" placeholder="Title...">
+    <button class="addBtn" onclick="newElement()">Add</button>
+
+    <!-- ACTION -->
+    <div class="actions">
+        <button id="checkAll">Check All</button>
+        <button id="uncheckAll">Uncheck All</button>
+        <button id="deleteChecked">Delete Checked</button>
+    </div>
+
+    <!-- COUNTER -->
+    <div id="counter">Selesai: 0 / 0</div>
+</div>
+
+<ul id="myUL"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
